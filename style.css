@@ -1,0 +1,405 @@
+/*Stylesheet by Brett Petch March 11, 2019*/
+@import url('https://fonts.googleapis.com/css?family=Abel|Open+Sans|Poppins|Roboto');
+
+/* Fonts
+    font-family: 'Open Sans', sans-serif;   Primary
+    font-family: 'Roboto', sans-serif;      Headers
+    font-family: 'Poppins', sans-serif;     Block Quote
+    font-family: 'Abel', sans-serif;
+*/
+body {
+    font-size: 1em;
+    width: 1000px;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: #c3b17c;
+    font-style: italic;
+}
+
+a:link:hover, a:hover, a:active, a:focus {
+    color: #7d6f4c;
+    text-decoration: none;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    font-style: italic;
+}
+
+a {
+    color: #c3b17c;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.container {
+    font-size: 1em;
+    width: 1000px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+.title {
+    padding: 0px 30px 0px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.quotecolor {
+    background-size: cover;
+    background-color: #545555;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+blockquote {
+    font-family: 'Poppins', sans-serif;
+    margin: 1.5em 5px;
+    padding: 0.5em 5px;
+}
+
+.cover {
+    display: cover;
+    padding: 75px 0px 50px;
+}
+
+.smallbq {
+    font-size: 0.7em;
+}
+
+.leftbq {
+    border-left: 5px solid #ccc;
+    font-size: 1em;
+}
+
+.rightbq {
+    border-right: 5px solid #ccc;
+    font-size: 1em;
+    text-align: right;
+    background-color: #222222;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.lightrightbq {
+    border-right: 5px solid #ccc;
+    font-size: 1em;
+    text-align: right;
+}
+
+.head {
+    width: 1000px;
+    height: 150px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 1000px;
+    height: 50px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.top {
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+}
+
+.sara {
+    margin: 0.5em 5px 0em;
+    padding: 0.5em 5px 0em;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.nav-element {
+    width: 197px;
+    -webkit-filter: hue-rotate(0deg);
+    display: inline-block;
+    height: 50px;
+}
+
+.nav-element:hover {
+    transition: ease-in-out 0.5s;
+    -webkit-filter: hue-rotate(0deg);
+}
+
+.nav-element:before {
+    width: 199px;
+    -webkit-filter: hue-rotate(0deg);
+    height: 50px;
+}
+
+.top-flat {
+    vertical-align: top;
+    padding: 0px 30px 0px;
+    margin-top: -50px;
+}
+
+.cont-flat {
+    vertical-align: top;
+    padding: 10px 100px 50px 100px;
+    margin-top: 0px;
+}
+
+/* Bryan's JUNO's Timer (Dark Theme by Brett Petch) */
+#countdown {
+    background-color: #222222;
+    background-color: #7d6f4c;
+    width: 850px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.timeSlot {
+    display: inline-block;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 72px;
+    margin: 10px 5px;
+    font-family: Helvetica;
+    text-align: center;
+    position: relative;
+}
+
+.timeSlot::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 32px;
+    text-align: center;
+}
+
+#dTxt::after {
+    content: 'DAYS';
+}
+
+#hTxt::after {
+    content: 'HOURS';
+}
+
+#mTxt::after {
+    content: 'MINUTES';
+}
+
+#sTxt::after {
+    content: 'SECONDS';
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.home {
+    width: 199px;
+    height: 50px;
+    background-image: url("images/home.jpg");
+    transition: ease;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.home:hover {
+    background-image: url("images/homeroll.jpg");
+    transition: ease;
+    transition-duration: 1s;
+}
+
+.awards {
+    width: 199px;
+    height: 50px;
+    background-image: url("images/awards.jpg");
+    transition: ease;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.awards:hover {
+    background-image: url("images/awardsroll.jpg");
+    transition: ease;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.input {
+    width: 199px;
+    height: 50px;
+    background-image: url("images/input.jpg");
+    transition: ease;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.input:hover {
+    background-image: url("images/inputroll.jpg");
+    transition: ease;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.venue {
+    width: 199px;
+    height: 50px;
+    background-image: url("images/venue.jpg");
+    transition: ease;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.venue:hover {
+    background-image: url("images/venueroll.jpg");
+    transition: ease;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.ref {
+    width: 199px;
+    height: 50px;
+    background-image: url("./images/ref.jpg");
+    transition: ease;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.ref:hover {
+    background-image: url("./images/refroll.jpg");
+    transition: ease;
+    transition-duration: 1s;
+    color: transparent;
+}
+
+.coverimage {
+    display: cover;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    color: white;
+    filter: grayscale(0.0);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    margin-top: 0;
+    overflow: hidden;
+}
+.titleimage {
+    display: cover;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    text-align: left;
+    color: white;
+    filter: grayscale(0.0);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    margin-top: 0;
+    overflow: hidden;
+}
+.titleimage h2 {
+    padding-left: 80px;
+    font-size: 90px;
+    margin-top: 0px;
+    top: 50%;
+    left: 50%;
+}
+.coverimage:hover, .coverimage:active {
+    display: cover;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    text-align: center;
+    color: white;
+    filter: grayscale(0.75);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    overflow: hidden;
+}
+.coverimage h2 {
+    font-size: 108px;
+    margin-top: -25px;
+    left: 50%;
+}
+
+.coverimage:hover, .coverimage:active {
+    display: cover;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    color: white;
+    filter: grayscale(0.75);
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    overflow: hidden;
+}
+
+.artist {
+    background-image: url("images/artist.jpeg");
+}
+
+.fc {
+    background-image: url("images/peopleschoice.jpeg");
+
+}
+
+.album {
+    background-image: url("images/album.jpeg");
+
+}
+
+.group {
+    background-image: url("images/group.jpeg");
+
+}
+
+.single {
+    background-image: url("images/single.png");
+}
+
+h3 {
+    font-size: 62px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.backtotop {
+    float: right;
+}
+.cominput {
+    background-image: url(images/community.jpg);
+}
+.bwg {
+    background-image: url(images/bwg_cover.jpg);
+}
+.aw {
+    background-image: url(images/aw.jpeg);
+}
+.refer {
+    background-image: url(images/references.jpeg)
+}
