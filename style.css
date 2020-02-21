@@ -7,23 +7,35 @@
     font-family: 'Poppins', sans-serif;     Block Quote
     font-family: 'Abel', sans-serif;
 */
+
+:root {
+    --body-back: #000;
+    --body-text: #fff;
+    --link: #c3b17c;
+    --link-hover: #7d6f4c;
+    --cont-back: rgb(40, 40, 40);
+    --quote-bg: #545555;
+    --nav-back: #000;
+
+}
+
 body {
     font-size: 1em;
     width: 1000px;
-    background-color: black;
-    color: white;
+    background-color: var(--body-back);
+    color: var(--body-text);
     font-family: 'Open Sans', sans-serif;
     margin-left: auto;
     margin-right: auto;
 }
 
 a:link {
-    color: #c3b17c;
+    color: var(--link);
     font-style: italic;
 }
 
 a:link:hover, a:hover, a:active, a:focus {
-    color: #7d6f4c;
+    color: var(--link-hover);
     text-decoration: none;
     transition: ease-in-out;
     transition-duration: 0.5s;
@@ -31,7 +43,7 @@ a:link:hover, a:hover, a:active, a:focus {
 }
 
 a {
-    color: #c3b17c;
+    color: var(--link);
     text-decoration: none;
     font-style: italic;
 }
@@ -39,8 +51,8 @@ a {
 .container {
     font-size: 1em;
     width: 1000px;
-    background-color: rgb(40, 40, 40);
-    color: white;
+    background-color: var(--cont-back);
+    color: var(--body-text);
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin-left: 2px;
@@ -57,7 +69,7 @@ h1, h2, h3, h4 {
 
 .quotecolor {
     background-size: cover;
-    background-color: #545555;
+    background-color: var(--quote-bg);
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -70,7 +82,7 @@ blockquote {
 }
 
 .cover {
-    display: cover;
+    background-size: cover;
     padding: 75px 0px 50px;
 }
 
@@ -111,7 +123,7 @@ blockquote {
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    background-color: var(--nav-back);
 }
 
 .body {
@@ -297,31 +309,33 @@ blockquote {
 }
 
 .coverimage {
-    display: cover;
+    background-size: cover;
     width: 100%;
     height: 200px;
     position: relative;
     text-align: center;
-    color: white;
+    color: var(--body-text);
     filter: grayscale(0.0);
     transition: ease-in-out;
     transition-duration: 0.5s;
     margin-top: 0;
     overflow: hidden;
 }
+
 .titleimage {
-    display: cover;
+    background-size: cover;
     width: 100%;
     height: 120px;
     position: relative;
     text-align: left;
-    color: white;
+    color: var(--body-text);
     filter: grayscale(0.0);
     transition: ease-in-out;
     transition-duration: 0.5s;
     margin-top: 0;
     overflow: hidden;
 }
+
 .titleimage h2 {
     padding-left: 80px;
     font-size: 90px;
@@ -329,18 +343,20 @@ blockquote {
     top: 50%;
     left: 50%;
 }
+
 .coverimage:hover, .coverimage:active {
-    display: cover;
+    background-size: cover;
     width: 100%;
     height: 120px;
     position: relative;
     text-align: center;
-    color: white;
+    color: var(--body-text);
     filter: grayscale(0.75);
     transition: ease-in-out;
     transition-duration: 0.5s;
     overflow: hidden;
 }
+
 .coverimage h2 {
     font-size: 108px;
     margin-top: -25px;
@@ -348,12 +364,12 @@ blockquote {
 }
 
 .coverimage:hover, .coverimage:active {
-    display: cover;
+    background-size: cover;
     width: 100%;
     height: 200px;
     position: relative;
     text-align: center;
-    color: white;
+    color: var(--body-text);
     filter: grayscale(0.75);
     transition: ease-in-out;
     transition-duration: 0.5s;
