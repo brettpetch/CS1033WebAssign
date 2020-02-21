@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ddbd499c-2ee9-4faf-9a8e-5fc17d2df476" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,8 +79,16 @@
       <workItem from="1552515130486" duration="13000" />
       <workItem from="1552515235588" duration="1753000" />
       <workItem from="1552517448908" duration="367000" />
-      <workItem from="1582316619633" duration="461000" />
+      <workItem from="1582316619633" duration="517000" />
     </task>
+    <task id="LOCAL-00001" summary="mod css for ez changes">
+      <created>1582317100509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582317100509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mod css for ez changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod css for ez changes" />
   </component>
 </project>
